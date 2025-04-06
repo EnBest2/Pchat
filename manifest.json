@@ -1,0 +1,10 @@
+
+{
+  "name": "pChat",
+  "short_name": "pChat",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#1c1c1c",
+  "theme_color": "#1c1c1c",
+  "icons": []
+}

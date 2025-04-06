@@ -1,0 +1,25 @@
+
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pChat</title>
+    <link rel="manifest" href="manifest.json">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="chat-container">
+        <div id="chat-box"></div>
+        <div class="mode-toggle">
+            <label for="mode">AI mód:</label>
+            <select id="mode">
+                <option value="flort">Flörtölős</option>
+            </select>
+        </div>
+        <input type="text" id="user-input" placeholder="Írj valamit..." />
+        <button onclick="sendMessage()">Küldés</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
